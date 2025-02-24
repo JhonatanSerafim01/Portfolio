@@ -1,9 +1,13 @@
+
+body{
+    overflow-x: hidden
+}
 .projetos {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.cards {
+#projetos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -54,6 +58,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: blur(15px);
+    opacity: 0;
+    transition: 2s ease;
+
 }
 .texto{
 
@@ -96,22 +104,41 @@ img {
 @keyframes nome-aparece {
 
     0%{
-        margin-top: 100px;
-        font-size: 0;
+        transform: translateX(100px);
+        filter: blur(10px);
+        
     }
 
     100%{
-        font-size: 1.375re;
+        transform: translateX(0);
+        filter: blur(0px);
+
+    }
+    
+}  
+@keyframes nome-aparece2{
+
+    0%{
+        transform: translateX(-100px);
+        filter: blur(10px);
+        
+    }
+
+    100%{
+        transform: translateX(0);
+        filter: blur(0px);
+        
+
 
     }
     
 }
 
 .meu-nome {
-    animation: 2.5s ease-in-out nome-aparece;
+    animation: 1s ease nome-aparece;
 }
 .contrate{
-    animation: 3s ease-in-out nome-aparece;
+    animation: 1s ease nome-aparece2;
 }
 @media( max-width: 800px) {
 
@@ -134,6 +161,12 @@ img {
         transform: translateX(40px);
     }
     
+}
+
+.show{
+    filter: blur(0);
+    transition: 2s ease;
+    opacity: 1;
 }
 
 
