@@ -535,6 +535,7 @@ html{
     color: var(--color-nav);
     transform: translateY(50px);
     opacity: 0;
+    overflow-x: hidden;
 
 }
 
