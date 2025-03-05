@@ -952,5 +952,10 @@ background-color:rgba(196, 196, 196, 0.678)
     .footer-direitos p {
         text-align: center;
     }
+    .title-skills{
+        transform: translateY(100px);
+        width: 300px;
+        height: 250px;
+    }
 
 }
