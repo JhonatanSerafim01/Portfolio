@@ -6,6 +6,111 @@
     overflow-x: hidden;
 
 }
+.darkmode{
+    background-color: #0b0a09;
+    color: white;
+
+    h1{
+        color: white;
+    }
+    .hard{
+        color: #000;
+    }
+    .hard h1{
+        color: #000;
+    }
+    .navbar-active {
+        background-color: #0b0a09;
+        color: white;
+        position: fixed;
+        height: 80px;
+        z-index: 10;
+        transition: 0.5s ease;
+        padding: 0;
+    }
+    .text-about h1{
+        color: white;
+    }
+    .btn-topo button{
+        background-color: #0b0a09;
+        
+    }
+    .footer-direitos{
+        background-color: #0b0a09;
+    }
+    .name p{
+        color: #c5c5c5;
+
+    }
+    .contato input{
+        border: 2px solid #0b0a09;
+    }
+    .contato textarea{
+        border: 2px solid #0b0a09;
+
+    }
+    .contato button{
+        border: 2px solid #0b0a09;
+    }
+    .contato button:hover{
+        background-color: #000;
+    }
+    .links-contato a {
+        color: white;
+    }
+    .links-contato2 a {
+        color: white;
+    }
+    
+}
+.div-button-dark{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+    padding-top: 4px;
+    overflow-y: hidden;
+    bottom: 20px;
+    left:20px;
+    z-index: 10;
+    border: 1px solid var(--color-nav);
+    
+    
+    
+    
+}
+.div-button-dark a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    
+}
+.ball{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(16, 16, 131);
+    border-radius: 50%;
+    left: 10%;
+    transition: 0.5s ease;
+    bottom: 2px;
+}
+
+.ball-active{
+    left: 50%;
+    transition: 0.5s ease;
+}
+.sol-active{
+    left: 10%;
+    transition: 0.5 ease;
+}
+
 
 
 :root {
@@ -252,7 +357,7 @@ html{
 }
 
 .name p {
-    color: rgb(34, 34, 34);
+    color: var(--color-nav);
     font-size: 1.5rem;
     overflow: hidden;
     white-space: nowrap;
@@ -956,6 +1061,17 @@ background-color:rgba(196, 196, 196, 0.678)
         transform: translateY(100px);
         width: 300px;
         height: 250px;
+    }
+    .name p {
+        color: var(--color-nav);
+        font-size: 1.3rem;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 0.1em solid #000;
+        animation: typing 2s steps(22) 1s forwards, blink 0.75s step-end infinite;
+        /* Animações */
+        padding-right: 0.1em;
+        /* Ajusta o espaçamento */
     }
 
 }

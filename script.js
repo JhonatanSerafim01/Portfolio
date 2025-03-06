@@ -1,3 +1,30 @@
+const lua = document.querySelector(".lua");
+const ball = document.querySelector('.ball')
+const sol = document.querySelector('.sol')
+const body = document.querySelector('.body')
+
+lua.onclick = function(event) {
+    event.preventDefault(); // Impede o comportamento padrão do link
+    ball.classList.add("ball-active");
+    body.classList.add('darkmode'); // Adiciona a classe "ativa" no link 'lua'
+};
+
+// Quando clicado no link 'sol', remove a classe "ativa" do link 'lua'
+sol.onclick = function(event) {
+    event.preventDefault(); // Impede o comportamento padrão do link
+    ball.classList.remove("ball-active");
+    body.classList.remove('darkmode') // Remove a classe "ativa" do link 'lua'
+};
+
+
+
+
+
+
+
+
+
+
 window.addEventListener("scroll", function () {
     const scrollPosition = window.scrollY; // Posição do scroll
     const targetElement = document.querySelector(".navbar"); // Elemento alvo
