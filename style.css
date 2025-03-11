@@ -591,6 +591,7 @@ html{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
     transform-origin: center;
+  
 
 }
 
@@ -609,6 +610,8 @@ html{
 
 .card h1 {
     padding-top: 20px;
+    font-size: 25px;
+    overflow-y: hidden;
 }
 
 .card img {
@@ -623,7 +626,8 @@ html{
 .card p {
     text-align: center;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
+    overflow-y: hidden;
 
 }
 
