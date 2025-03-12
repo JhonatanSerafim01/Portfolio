@@ -488,7 +488,7 @@ html{
     justify-content: center;
     min-height: 500px;
     width: 100%;
-    height: 2000px;
+    height: 2800px;
     background-color: var(--color-fundo);
 
 }
@@ -499,6 +499,7 @@ html{
     color: var(--color-nav);
     transform: translateY(40px);
     opacity: 0;
+    overflow: hidden;
 
 
 }
@@ -516,13 +517,14 @@ html{
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     width: 90%;
-    height: 1400px;
+    height: 2700px;
     overflow: hidden;
     max-width: 1200px;
     transform: translateX(-2000px);
     opacity: 0;
     transition: 1s ease;
     filter: blur(3px);
+    gap: 0;
 
 
 
@@ -972,7 +974,7 @@ background-color:rgba(196, 196, 196, 0.678)
         flex-direction: column;
     }
     .projects{
-        height:3200px;
+        height:3700px;
     
         
     }
@@ -983,11 +985,10 @@ background-color:rgba(196, 196, 196, 0.678)
 
     .cards-projects{
         width: 100%;
-        height: 100%;
         display: flex;
         flex-direction: column;
         gap: 20px;
-        height: 2900px;
+        height: 3400px;
         padding: 0px 50px 0px 50px;
     }
     .card{
@@ -995,7 +996,7 @@ background-color:rgba(196, 196, 196, 0.678)
         flex-direction: column;
         gap: 10px;
         width: 350px;
-       height: 460px;
+        height: 460px;
         transform: scale(1);
         overflow-y: hidden;
         padding: 0px 10px 0px 10px;
