@@ -273,7 +273,7 @@ html{
     text-decoration: none;
     color: inherit;
     font-size: 25px;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .navbar-ul-2 li:hover{
     transform: scale(1.05);
@@ -786,7 +786,7 @@ html{
     align-items: center;
     justify-content: center;
     gap: 5px;
-    overflow: hidden;
+    overflow-y: hidden;
 
 
 }
