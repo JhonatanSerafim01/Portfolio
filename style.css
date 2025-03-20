@@ -266,6 +266,9 @@ html{
     overflow: hidden;
     
 }
+.navbar-ul-2 li{
+    overflow: hidden;
+}
 .navbar-ul-2 a{
     text-decoration: none;
     color: inherit;
@@ -783,6 +786,7 @@ html{
     align-items: center;
     justify-content: center;
     gap: 5px;
+    overflow: hidden;
 
 
 }
