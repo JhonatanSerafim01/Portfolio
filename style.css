@@ -272,7 +272,7 @@ html{
 .navbar-ul-2 a{
     text-decoration: none;
     color: inherit;
-    font-size: 25px;
+    font-size: 23px;
     overflow: hidden;
 }
 .navbar-ul-2 li:hover{
@@ -777,7 +777,7 @@ html{
 
 .info-contato button {
     width: 200px;
-    height: 55px;
+    height: 50px;
     border: 2px solid var(--color-nav);
     font-size: 14px;
     color: black;
@@ -792,7 +792,7 @@ html{
 }
 
 .fa-whatsapp {
-    font-size: 25px;
+    font-size: 22px;
     margin: 0px 5px;
 }
 
