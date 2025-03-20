@@ -263,12 +263,14 @@ html{
     gap: 15px;
     width: 120px;
     height: 40px;
+    overflow: hidden;
     
 }
 .navbar-ul-2 a{
     text-decoration: none;
     color: inherit;
     font-size: 25px;
+    overflow-y: hidden;
 }
 .navbar-ul-2 li:hover{
     transform: scale(1.05);
