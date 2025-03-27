@@ -541,6 +541,9 @@ html{
     transition: 1.5s ease;
     filter: blur(0);
 }
+#trabalhando{
+    height: 300px;
+}
 
 
 .btn-visit {
