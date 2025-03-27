@@ -543,6 +543,17 @@ html{
 }
 #trabalhando{
     height: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.txt-trabalhando{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 7px 0px 7px;
 }
 
 
